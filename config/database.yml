@@ -1,0 +1,11 @@
+default: &DEFAULT
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: <%= `whoami`.strip.inspect %>
+  port: <%= ENV['DB_PORT'] || 5432 %>
+
+development:
+  <<: *DEFAULT
+  database: template_development
+
