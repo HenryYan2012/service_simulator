@@ -20,6 +20,7 @@ def rules_engine_simulator
           "time_to_clinical_impact" =>"1-30 days",
           "time_to_financial_impact" =>"31-90 days",
           "question" =>"Is the patient on the BEST medications to treat their medical conditions",
+          "rule_identifier" => "300-8",
           "severity" =>"Major",
           "description" =>"High cholesterol - starting a cholesterol medicine ",
           "rationale" =>"Hypercholesterolemia, elevated low-density lipoprotein (LDL) levels, and low high-density lipoprotein (HDL) levels are unequivocally linked to increased risk for coronary heart disease and cerebrovascular morbidity and mortality. LDL is the primary target. Decreasing elevated total cholesterol and low-density lipoprotein cholesterol (LDL-C) levels reduce coronary heart disease mortality and total mortality; increasing HDL reduces coronary heart disease events as well. Aggressive treatment of hypercholesterolemia results in fewer patients progressing to myocardial infarction, angina, and stroke and reduces the need for interventions such as coronary artery bypass graft and percutaneous transluminal coronary angioplasty.[Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III). Executive Summary of the Third Report of the National Cholesterol Education Program (NCEP). (2002). NIH Publication 02-5215. Available at http =>//www.nhlbi.nih.gov/guidelines/cholesterol/atp3full.pdf]",
